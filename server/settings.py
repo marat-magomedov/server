@@ -12,6 +12,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 CSRF_TRUSTED_ORIGINS = [
     "https://176.124.213.151",
+    "http://176.124.213.151",
 ]
 
 YOOKASSA_SHOP_ID = os.getenv('YOOKASSA_SHOP_ID', 'your_shop_id')
